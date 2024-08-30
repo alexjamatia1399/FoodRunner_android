@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingHorizontal="5dp"
+    android:id="@+id/foodviewholder">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        android:id="@+id/layoutHolder"
+        android:weightSum="9">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/txtFoodSerial"
+            android:text="1"
+            android:textStyle="bold"
+            android:textSize="17sp"
+            android:textColor="@color/gray"
+            android:padding="5dp"
+            />
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="5.8"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtFoodItem"
+                android:text="Food Name"
+                android:textStyle="bold"
+                android:textSize="17sp"
+                android:textColor="@color/blackgray"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtFoodPrice"
+                android:text="200"
+                android:textSize="16sp"
+                android:layout_marginTop="7dp"
+                android:layout_below="@+id/txtFoodItem"
+                android:layout_toRightOf="@+id/txtRupees"
+                />
+            <TextView
+                android:layout_width="25dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtRupees"
+                android:text="Rs."
+                android:textSize="16sp"
+                android:layout_marginTop="7dp"
+                android:layout_below="@+id/txtFoodItem"
+                />
+
+        </RelativeLayout>
+
+        <android.widget.Button
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight="2.2"
+            android:background="@drawable/loginbutton"
+            android:text="add"
+            android:textSize="14sp"
+            android:textColor="@color/white"
+            android:id="@+id/btnAddFood"
+            />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

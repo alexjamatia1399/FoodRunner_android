@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:layout_margin="5dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="5dp"
+    android:id="@+id/recyclerItemHome">
+
+    <ImageView
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:padding="10dp"
+        android:src="@mipmap/ic_icon_launcher"
+        android:id="@+id/imgRestaurant"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="11dp"
+        android:textSize="18sp"
+        android:textColor="@color/blackgray"
+        android:textStyle="bold"
+        android:text="Everything but Food"
+        android:layout_toEndOf="@+id/imgRestaurant"
+        android:id="@+id/txtResName"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingVertical="4dp"
+        android:layout_marginLeft="13dp"
+        android:textSize="16sp"
+        android:textColor="@color/darkgray"
+        android:text="Rs."
+        android:layout_toEndOf="@+id/imgRestaurant"
+        android:layout_below="@+id/txtResName"
+        android:id="@+id/txtRupees"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingStart="3dp"
+        android:paddingEnd="1dp"
+        android:paddingVertical="4dp"
+        android:textSize="16sp"
+        android:textColor="@color/darkgray"
+        android:text="100"
+        android:layout_toEndOf="@+id/txtRupees"
+        android:layout_below="@+id/txtResName"
+        android:id="@+id/txtResPrice"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingVertical="4dp"
+        android:textSize="15sp"
+        android:textColor="@color/darkgray"
+        android:text="/person"
+        android:layout_toEndOf="@+id/txtResPrice"
+        android:layout_below="@+id/txtResName"
+        android:id="@+id/txtPerson"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="11dp"
+        android:drawableLeft="@drawable/ic_rating"
+        android:drawablePadding="10dp"
+        android:textSize="15sp"
+        android:textColor="@color/steelgray"
+        android:text="4.2"
+        android:layout_toEndOf="@+id/imgRestaurant"
+        android:layout_below="@id/txtResPrice"
+        android:id="@+id/txtResRating"
+        />
+
+    <ImageButton
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/not_added_fav"
+        android:background="@color/white"
+        android:layout_marginTop="10dp"
+        android:id="@+id/btnFav"
+        />
+
+
+</RelativeLayout>
+
+</androidx.cardview.widget.CardView>
