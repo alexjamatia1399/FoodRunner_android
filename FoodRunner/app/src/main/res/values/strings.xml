@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">FoodRunner</string>
+    <string name="userdata">User Information</string>
+    <string name="logindata">Logged In User</string>
+    <string name="resdata">Selected Restaurant</string>
+    <string name="home">Home</string>
+    <string name="my_profile">My Profile</string>
+    <string name="logout">Logout</string>
+    <string name="faqs">FAQs</string>
+    <string name="favourites">Favourites</string>
+    <string name="open_drawer">Open Drawer</string>
+    <string name="close_drawer">Close Drawer</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="profile_fragment">Profile Fragment</string>
+    <string name="favourites_fragment">Favourites Fragment</string>
+    <string name="faq_fragment">FAQs Fragments</string>
+    <string name="india">MLA Hostel No.2, Krishnanagar, Agartala, Tripura(West), India</string>
+    <string name="per_person">100/person</string>
+    <string name="restaurant_name">Restaurant name</string>
+
+    <string name="question1">How can I register to FoodRunner ?</string>
+    <string name="answer1">In the Login page, you can click on the Sign Up text and the Register Yourself page will open where you can fill in your details, and then click on the Register button to register your account.</string>
+
+    <string name="question2">Where can I see the list of foods ?</string>
+    <string name="answer2">You can click on any restaurant from the All Restaurants page and then on the Food Menu page of that restaurant you can see all the foods available in that restaurant in that food menu.</string>
+
+    <string name="question3">Where can I see my order details ?</string>
+    <string name="answer3">After you select all the foods that you want to order, you can click on the Proceed to Cart button to open the My Cart page where you can all the details of that particular order.</string>
+
+    <string name="question4">Can I check my previous orders ?</string>
+    <string name="answer4">In the Navigation bar there is a Order History option, clicking on which you can open the My Previous Orders page and see all your previous orders and their details.</string>
+
+    <string name="question5">Can I check my account profile details ?</string>
+    <string name="answer5">In the Navigation bar there is a My Profile option, clicking on which you can open the My Profile page and see all your profile details.</string>
+
+    <string name="question6">How many restaurants are available in FoodRunner ?</string>
+    <string name="answer6">There are a total of 17 restaurants in FoodRunner and you can see all of them in the All Restaurants page.</string>
+    <string name="order_history">Order History</string>
+</resources>
